@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias alias="Food" type="com.safe.vo.Food" />
+        <typeAlias alias="User"  type="com.safe.vo.User" />
+        <typeAlias alias="Notice"  type="com.safe.vo.Notice" />
+        <typeAlias alias="EatInfo"  type="com.safe.vo.EatInfo" />
+        <typeAlias alias="Qna"  type="com.safe.vo.Qna"/>
+        <typeAlias alias="Comment"  type="com.safe.vo.Comment"/>
+        <typeAlias alias="Follow"  type="com.safe.vo.Follow"/>
+    </typeAliases>
+	
+    <mappers>
+      <mapper resource="config/FoodMapper.xml" />
+      <mapper resource="config/UserMapper.xml" />
+      <mapper resource="config/NoticeMapper.xml" />
+      <mapper resource="config/EatInfoMapper.xml" />
+      <mapper resource="config/QnaMapper.xml" />
+      <mapper resource="config/CommentMapper.xml" />
+      <mapper resource="config/FollowMapper.xml" />
+    </mappers>
+</configuration>

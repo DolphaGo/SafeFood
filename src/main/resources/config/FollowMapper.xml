@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="follow">
+	
+	<select id="selectAllFollower" parameterType="String" resultType="Follow">
+		select * from follow where follow=#{id}
+	</select>
+	
+	<select id="selectAllFollowing" parameterType="String" resultType="Follow">
+		select * from follow where follower=#{id}
+	</select>
+	
+	<select id="selectOne" parameterType="String" resultType="Follow">
+		select * from follow where fid=#{fid}
+	</select>
+	
+	<insert id="insert" parameterType="Follow">
+		insert into follow values(null,#{follow},#{follower})
+	</insert>	
+	
+	<insert id="update" parameterType="Follow">
+		update follow set follow=#{follow},follower=#{follower} where fid=#{fid}
+	</insert>	
+	
+	<delete id="delete" parameterType="String">
+		delete from follow where fid=#{fid}
+	</delete>	
+</mapper>

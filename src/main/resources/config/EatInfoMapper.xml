@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="eatinfo">
+	<select id="selectByDate" parameterType="java.util.HashMap" resultType="java.lang.Integer">
+		select code from eatinfo where id=#{id} and edate=#{edate}
+	</select>
+	
+	<insert id="insert" parameterType="java.util.HashMap"> 
+		insert into eatinfo values	(null, #{id}, #{date}, #{code})
+	</insert>
+
+	<delete id="delete" parameterType="java.util.HashMap">
+		delete 
+		from 
+		eatinfo where 
+		eid = (select t.eid from (select eid from eatinfo  where id=#{id} and code=#{code} and edate=#{date} limit 1) as t);
+	</delete>
+
+</mapper>
