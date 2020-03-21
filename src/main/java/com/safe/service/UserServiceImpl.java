@@ -14,7 +14,7 @@ import com.safe.vo.User;
 
 @Service("userservice")
 public class UserServiceImpl implements IUserService {
-	String path="C:/Users/student/git/safefood/src/main/webapp/Temp/profile/";
+	String path="C:/Users/adamd/Documents/safefood/src/main/webapp/Temp/profile/";
 	
 	@Autowired
 	IUserDAO dao;

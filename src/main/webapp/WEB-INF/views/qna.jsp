@@ -271,7 +271,7 @@ var qnalist=Vue.component('qnalist',{
 	methods: {
 	    allQnas() {
 	        axios.get(
-	            'http://70.12.108.177:8080/SafeFood/qna'
+	            'http://localhost:8080/SafeFood/qna'
 	        ).then(response => {
 	            this.result = response.data;
 	            console.log(response.data);
@@ -312,7 +312,7 @@ var qnaview=Vue.component('qnaview',{
 	 	   },
   	  initload(){
   		  axios
-         .get('http://70.12.108.177:8080/SafeFood/qna/'+App.$data.qid)
+         .get('http://localhost:8080/SafeFood/qna/'+App.$data.qid)
          .then(response =>{
         	 
        		this.qnaresult =response.data.qna;
@@ -327,7 +327,7 @@ var qnaview=Vue.component('qnaview',{
   	  deletecomment(cid) {
 		var res=confirm("댓글을 삭제하시겠습니까?");
 		if(res){
-		      axios.delete('http://70.12.108.177:8080/SafeFood/comment/' + cid)
+		      axios.delete('http://localhost:8080/SafeFood/comment/' + cid)
 		          .then(response => {
 		        	  this.initload();
 		          })
@@ -338,7 +338,7 @@ var qnaview=Vue.component('qnaview',{
    		  
    		  var res=confirm("댓글을 등록하시겠습니까?");
    		  if(res){
-      	  axios.post('http://70.12.108.177:8080/SafeFood/comment', {
+      	  axios.post('http://localhost:8080/SafeFood/comment', {
       		  cid:null,
       		  qid:this.qid,
       		  id:App.$data.id,		
@@ -360,7 +360,7 @@ var qnaview=Vue.component('qnaview',{
        deleteQna() {
       	 var res=confirm("Q&A를 삭제하시겠습니까?");
       	 if(res){
-           axios.delete('http://70.12.108.177:8080/SafeFood/qna/' + this.qid)
+           axios.delete('http://localhost:8080/SafeFood/qna/' + this.qid)
                .then(response => {
               	 App.$data.qid='';
   	             App.$data.currentview='qnalist';
@@ -403,7 +403,7 @@ var qnawrite=Vue.component('qnawrite',{
 		addQna(){
 			 var res=confirm("Q&A를 등록하시겠습니까?");
         	 if(res){
-             axios.post('http://70.12.108.177:8080/SafeFood/qna',{
+             axios.post('http://localhost:8080/SafeFood/qna',{
                qid:null,
   		       id :App.$data.id,
   		       wdate:null,
@@ -446,7 +446,7 @@ var qnaupdate=Vue.component('qnaupdate',{
 	},
 	methods:{
 		initqna(){
-			axios.get('http://70.12.108.177:8080/SafeFood/qna/' + App.$data.qid)
+			axios.get('http://localhost:8080/SafeFood/qna/' + App.$data.qid)
 	         .then(response => {
 	        	this.qid=response.data.qna.qid;
 	        	this.id=response.data.qna.id;
@@ -457,7 +457,7 @@ var qnaupdate=Vue.component('qnaupdate',{
 	         })
 		},
 		updateQna(){
-			axios.put('http://70.12.108.177:8080/SafeFood/qna/',{
+			axios.put('http://localhost:8080/SafeFood/qna/',{
 				qid:this.qid,
 	        	id:this.id,
 	        	wdate:this.wdate,
@@ -473,7 +473,7 @@ var qnaupdate=Vue.component('qnaupdate',{
 		},
 		backtoView(){
 			 axios
-	          .get('http://70.12.108.177:8080/SafeFood/qna/'+App.$data.qid)
+	          .get('http://localhost:8080/SafeFood/qna/'+App.$data.qid)
 	          .then(response =>{
 	        		this.qnaresult =response.data.qna;
 	        		this.commentresult=response.data.comment;

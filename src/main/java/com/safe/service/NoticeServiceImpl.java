@@ -15,7 +15,7 @@ import com.safe.vo.Notice;
 
 @Service("noticeservice")
 public class NoticeServiceImpl implements INoticeService {
-	String path = "C:/Users/student/git/safefood/src/main/webapp/Temp/attach/";
+	String path = "C:/Users/adamd/Documents/safefood/src/main/webapp/Temp/attach/";
 	
 	@Autowired
 	INoticeDAO dao;

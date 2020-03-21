@@ -10,8 +10,9 @@
 	</parent>
 	<groupId>com</groupId>
 	<artifactId>SafeFood</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>SafeFood</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -87,6 +88,18 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>2.1.0</version>
+				<configuration>
+					<to>
+						<image>myimage</image>
+					</to>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 
