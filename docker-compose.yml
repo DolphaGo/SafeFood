@@ -1,0 +1,21 @@
+version: "3"
+services:
+  dolphago_database:
+    # 컨테이너 이름을 설정하고 싶다면 작성하세요.
+    # container_name: dolphago_database
+    image: mysql
+    environment:
+      MYSQL_DATABASE: safefood
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - 3306:3306
+
+  dolphago_application:
+    build: .
+    ports:
+      - 8080:8080
+    links:
+      - dolphago_database
+    depends_on:
+      - dolphago_database
