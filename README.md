@@ -55,7 +55,7 @@
 
 #### Qna - 글 작성,수정 삭제 + 댓글 기능
 
-![QnA](readme_picture\QnA.JPG)
+![QnA](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/QnA.JPG?raw=true)
 
 ![Qna2](readme_picture\Qna2.JPG)
 
