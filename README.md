@@ -44,10 +44,10 @@
 
 
 
-![공지사항](readme_picture\공지사항.JPG)
+![공지사항](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD.JPG?raw=true)
 
 
-![공지사항글](readme_picture\공지사항글.JPG)
+![공지사항글](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%EA%B8%80.JPG?raw=true)
 
 
 
@@ -57,55 +57,56 @@
 
 ![QnA](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/QnA.JPG?raw=true)
 
-![Qna2](readme_picture\Qna2.JPG)
+![Qna2](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/Qna2.JPG?raw=true)
 
 
 
 #### Best 섭취기능 - 조합 알고리즘을 통한 최적의 칼로리 식단 제공
 
-![베스트섭취](readme_picture\베스트섭취.JPG)
+![베스트섭취](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%84%AD%EC%B7%A8.JPG?raw=true)
 
 
 
 #### 상품정보 보기 - 각 상품별 영양정보, 원재료, 알레르기 유발물질 정보화
 
-![상품정보](readme_picture\상품정보.JPG)
+![상품정보](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%83%81%ED%92%88%EC%A0%95%EB%B3%B4.JPG?raw=true)
 
 
 
 #### 섭취하기
 
-![섭취하기](readme_picture\섭취하기.JPG)
+![섭취하기](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%84%AD%EC%B7%A8%ED%95%98%EA%B8%B0.JPG?raw=true)
 
 
 
 #### 찜하기 - 세션을 활용한 찜 기능
 
-![찜기능](readme_picture\찜기능.JPG)![세션_찜](readme_picture\세션_찜.JPG)
+![찜기능](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%B0%9C%EA%B8%B0%EB%8A%A5.JPG?raw=true)
+![세션_찜](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%84%B8%EC%85%98_%EC%B0%9C.JPG?raw=true)
 
 #### 총 섭취정보 - 날짜별로 내가 섭취한 식품들에 대한 정보 한눈에 도식화
 
-![총섭취정보](readme_picture\총섭취정보.JPG)
+![총섭취정보](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%B4%9D%EC%84%AD%EC%B7%A8%EC%A0%95%EB%B3%B4.JPG?raw=true)
 
 
 
 #### 팔로우/ 팔로워 기능
 
-![팔로우이미지](readme_picture\팔로우이미지.JPG)
+![팔로우이미지](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%ED%8C%94%EB%A1%9C%EC%9A%B0%EC%9D%B4%EB%AF%B8%EC%A7%80.JPG?raw=true)
 
-![팔로우이미지1](readme_picture\팔로우이미지1.JPG)
+![팔로우이미지1](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%ED%8C%94%EB%A1%9C%EC%9A%B0%EC%9D%B4%EB%AF%B8%EC%A7%801.JPG?raw=true)
 
-![팔로우이미지2](readme_picture\팔로우이미지2.JPG)
+![팔로우이미지2](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%ED%8C%94%EB%A1%9C%EC%9A%B0%EC%9D%B4%EB%AF%B8%EC%A7%802.JPG?raw=true)
 
 
 
 #### 회원가입 - Jquery를 활용한 form 유효성 체크
 
-![회원가입이미지](readme_picture\회원가입이미지.JPG)
+![회원가입이미지](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EC%9D%B4%EB%AF%B8%EC%A7%80.JPG?raw=true)
 
 #### 유저데이터베이스 관리 - 해시테이블로 비밀번호 암호화
 
-![유저데이터베이스](readme_picture\유저데이터베이스.JPG)
+![유저데이터베이스](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%9C%A0%EC%A0%80%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4.JPG?raw=true)
 
 
 
