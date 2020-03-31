@@ -92,7 +92,7 @@
 
 #### 팔로우/ 팔로워 기능
 
-![팔로우이미지](readme_picture\팔로우이미지.JPG)
+![팔로우이미지](readme_picture\\팔로우이미지.JPG)
 
 ![팔로우이미지1](readme_picture\팔로우이미지1.JPG)
 
