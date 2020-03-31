@@ -53,11 +53,18 @@
 
 
 
+
+
+
 #### Qna - 글 작성,수정 삭제 + 댓글 기능
 
 ![QnA](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/QnA.JPG?raw=true)
 
 ![Qna2](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/Qna2.JPG?raw=true)
+
+
+
+
 
 
 
@@ -67,15 +74,28 @@
 
 
 
+
+
+
+
 #### 상품정보 보기 - 각 상품별 영양정보, 원재료, 알레르기 유발물질 정보화
 
 ![상품정보](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%83%81%ED%92%88%EC%A0%95%EB%B3%B4.JPG?raw=true)
 
 
 
-#### 섭취하기
+
+
+
+
+#### 섭취하기 - 음식을 섭취한 날짜와 수량 선택하여 기록화 가능
 
 ![섭취하기](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%84%AD%EC%B7%A8%ED%95%98%EA%B8%B0.JPG?raw=true)
+
+
+
+
+
 
 
 
@@ -84,9 +104,21 @@
 ![찜기능](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%B0%9C%EA%B8%B0%EB%8A%A5.JPG?raw=true)
 ![세션_찜](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%84%B8%EC%85%98_%EC%B0%9C.JPG?raw=true)
 
+
+
+
+
+
+
+
 #### 총 섭취정보 - 날짜별로 내가 섭취한 식품들에 대한 정보 한눈에 도식화
 
 ![총섭취정보](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%EC%B4%9D%EC%84%AD%EC%B7%A8%EC%A0%95%EB%B3%B4.JPG?raw=true)
+
+
+
+
+
 
 
 
@@ -100,9 +132,20 @@
 
 
 
+
+
+
+
+
 #### 회원가입 - Jquery를 활용한 form 유효성 체크
 
 ![회원가입이미지](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EC%9D%B4%EB%AF%B8%EC%A7%80.JPG?raw=true)
+
+
+
+
+
+
 
 #### 유저데이터베이스 관리 - 해시테이블로 비밀번호 암호화
 
