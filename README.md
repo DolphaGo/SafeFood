@@ -40,7 +40,7 @@
 
 ## 시연
 
-#### 공지사항 기능 - 관리자만 글을 쓸 수 있는 곳 (사진 첨부 가능)
+#### 공지사항 기능 - 관리자만 글을 쓸 수 있는 곳 , 페이징
 
 
 
@@ -58,7 +58,7 @@
 
 
 
-#### Qna - 글 작성,수정 삭제 + 댓글 기능
+#### Qna - 글 작성,수정 삭제 + 댓글 기능 , 
 
 ![QnA](https://github.com/adamdoha/SafeFood/blob/master/readme_picture/QnA.JPG?raw=true)
 
